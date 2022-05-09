@@ -21,7 +21,7 @@ let datos = [
 
 let Cards = () => {
   return (
-    <div className="container d-flex flex-sm-column flex-md-row justify-content-around mb-5 mr-5 ml-5">
+    <div className="container d-flex flex-column flex-lg-row justify-content-between mb-5 mr-5 ml-5">
       {datos.map((props) => (
         <Card key={props.key} title={props.title} url={props.url}></Card>
       ))}
