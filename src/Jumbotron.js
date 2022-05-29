@@ -1,7 +1,9 @@
+import "bootstrap/dist/css/bootstrap.css";
+
 let Jumbotron = () => {
   return (
     <>
-      <div className="m-5 d-flex align-items-start flex-column  p-5 text-center bg-secondary bg-opacity-50">
+      <div className="m-5 d-flex align-items-start flex-column p-5 text-center bg-secondary bg-opacity-50">
         <h1 className=" mb-3">A Warm Welcome!</h1>
         <p className="text-start mb-3">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
